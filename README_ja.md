@@ -20,8 +20,12 @@
 - [コントリビュートについて](#コントリビュートについて)
 
 # 免責事項
-> [Apache License, Version 2.0](https://github.com/haiiro2gou/Big-Number-Calculator/blob/Release/LICENSE)
-This datapack is released under the Apache License, Version 2.0, see [LICENSE](https://github.com/haiiro2gou/Big-Number-Calculator/blob/Release/LICENSE).
+> [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)  
+
+This datapack is released under the Apache License, Version 2.0, see [LICENSE](https://github.com/haiiro2gou/Big-Number-Calculator/blob/Release/LICENSE).  
+  
+1. 
+
 
 # わかりやすいライセンス
 1. 著作権表示！  
