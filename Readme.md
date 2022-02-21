@@ -1,6 +1,6 @@
 ![Banner](https://raw.githubusercontent.com/haiiro2gou/Big-Number-Calculator/Release/images/banner.png)
 
-[![license](https://img.shields.io/github/license/blanoir3298/Big-Number-Calculator)](https://github.com/ChenCMD/MC-Datapack-Utility/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/haiiro2gou/Big-Number-Calculator)](https://github.com/haiiro2gou/Big-Number-Calculator/blob/Release/LICENSE)
 [![Version](https://img.shields.io/visual-studio-marketplace/v/chencmd.mc-datapack-utility?logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=chencmd.mc-datapack-utility)
 [![LastUpdate](https://img.shields.io/visual-studio-marketplace/last-updated/chencmd.mc-datapack-utility?logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=chencmd.mc-datapack-utility)
 [![Download](https://img.shields.io/visual-studio-marketplace/d/chencmd.mc-datapack-utility?logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=chencmd.mc-datapack-utility)
