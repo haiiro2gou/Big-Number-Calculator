@@ -5,7 +5,7 @@
 [![LastUpdate](https://img.shields.io/github/last-commit/haiiro2gou/Big-Number-Calculator.svg)](https://github.com/haiiro2gou/Big-Number-Calculator)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.carloscuesta.me/)
 
-#### [English](https://github.com/haiiro2gou/Big-Number-Calculator/blob/Release/Readme.md)(準備中です) / 日本語
+#### [English](https://github.com/haiiro2gou/Big-Number-Calculator/blob/Release/README.md)(Preparing) / 日本語
 
 # ここは何？
 niwaniwa08というプレイヤーを君主とする絶対君主制サーバー大鶏帝国のコマンド研究所です  
