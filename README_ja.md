@@ -1,11 +1,11 @@
-![Banner](https://raw.githubusercontent.com/haiiro2gou/Big-Number-Calculator/Release/images/banner.PNG)
+![Banner](https://raw.githubusercontent.com/haiiro2gou/Big-Number-Calculator/main/images/banner.PNG)
 
-[![license](https://img.shields.io/github/license/haiiro2gou/Big-Number-Calculator)](https://github.com/haiiro2gou/Big-Number-Calculator/blob/Release/LICENSE)
+[![license](https://img.shields.io/github/license/haiiro2gou/Big-Number-Calculator)](https://github.com/haiiro2gou/Big-Number-Calculator/blob/main/LICENSE)
 [![Version](https://img.shields.io/github/v/release/haiiro2gou/Big-Number-Calculator.svg)](https://github.com/haiiro2gou/Big-Number-Calculator/releases)
 [![LastUpdate](https://img.shields.io/github/last-commit/haiiro2gou/Big-Number-Calculator.svg)](https://github.com/haiiro2gou/Big-Number-Calculator)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.carloscuesta.me/)
 
-#### [English](https://github.com/haiiro2gou/Big-Number-Calculator/blob/Release/README.md)(Preparing) / 日本語
+#### [English](https://github.com/haiiro2gou/Big-Number-Calculator/blob/main/README.md)(Preparing) / 日本語
 
 何に使うかわからない桁の多い数の計算ができるデータパックです  
 多分誰も（自分も！）使わないので供養のために…  
@@ -16,10 +16,12 @@ for ver 1.16.5 (Java Edition)
 - [インストール方法](#インストール方法)
 - [機能](#機能)
   - [大きな数の表記](#大きな数の表記)
+  - [四則演算](#演算)
   - [スコアボードの変換](#スコアボードの変換)
+    - [被演算子の変換](#被演算子の変換)
+    - [演算結果の変換](#演算結果の変換)
 - [推奨事項](#推奨事項)
-- [謝辞](#謝辞)
-- [コントリビュートについて](#コントリビュートについて)
+- [開発協力について](#開発協力について)
 
 ## 免責事項
 > [[Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)]
@@ -62,16 +64,30 @@ This datapack is released under the Apache License, Version 2.0, see [LICENSE](h
 ※なお、現時点ではT(10^12)までの計算にのみ対応しています。  
 ※乗除算の右の項は通常通りのスコアボードの範囲のみ適応可能です。
 
+### 演算
+- 加法: /function big_calc:calculate/addition
+- 減法: /function big_calc:calculate/subtraction
+- 乗法: /function big_calc:calculate/multiplication
+- 除法: /function big_calc:calculate/division
+
 ### スコアボードの変換
-※この機能は推奨されていない動作であり、正確な結果が出ることを保証できません。  
-（この機能に関するバグを見つけた場合、報告をお願いします）
+※これらの機能は推奨されていない動作であり、正確な結果が出ることは現時点で保証されていません。
 
-- /scoreboard players operation @s bc.num_1 = @s <前者の被演算子>
-- /scoreboard players operation @s bc.num_2 = @s <後者の被演算子>
-- /function Big_Calc:
+#### 被演算子の変換
+1. /scoreboard players operation @s bc.num_1 = @s <前者の被演算子>
+2. /scoreboard players operation @s bc.num_2 = @s <後者の被演算子>
+3. /function big_calc:convert
 
-### 四則演算
-1. 加法: /function Big_Calc:calculate/addition.mcfunction
-2. 減法: /function Big_Calc:calculate/subtraction.mcfunction
-3. 乗法: /function Big_Calc:calculate/multiplication.mcfunction
-4. 除法: /function Big_Calc:calculate/division.mcfunction
+#### 演算結果の変換
+※演算結果が従来のスコアボードの限界値を超過している場合、変換は実行されません。
+
+1. /function big_calc:reconvert
+2. /scoreboard players operation @s <任意のスコアボード> = @s bc.cv_num
+3. /scoreboard players operation @s <任意のスコアボード> = @s bc.cv_rm  
+※上のコマンドで除法の余を求めることができます。
+
+## 推奨事項
+「スコアボードの変換」機能は試験的に導入した機能であり、現在正常な動作を保証していません。
+
+## 開発協力について
+本データパックの開発への協力に関しては、[Contributing.md](https://github.com/haiiro2gou/Big-Number-Calculator/blob/main/Contributing_ja.md)を参照してください。
