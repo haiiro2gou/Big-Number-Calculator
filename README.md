@@ -11,16 +11,16 @@ This is a datapack that allows you to calculate high-digit numbers!
 Maybe no one (not even me!) will use it, so for offerings...  
 for ver 1.16.5 (Java Edition)  
 
-- [Disclaimer](#Disclaimer)
-- [How to Install](#How-to-Install)
-- [Features](#Features)
-  - [Notation of Large Numbers](#Notation-of-Large-Numbers)
-  - [Operations](#Basic-Arithmetic-operations)
-  - [Scoreboard Conversions](#Scoreboard-Conversions)
-    - [Operands](#Conversion-of-Operands)
-    - [Results](#Conversion-of-Operation-Results)
-- [Recommendations](#Recommendations)
-- [About Contributing](#About-Contributing)
+- [Disclaimer](#disclaimer)
+- [How to Install](#how-to-install)
+- [Features](#features)
+  - [Notation of Large Numbers](#notation-of-large-numbers)
+  - [Operations](#basic-arithmetic-operations)
+  - [Scoreboard Conversions](#scoreboard-conversions)
+    - [Operands](#conversion-of-operands)
+    - [Results](#conversion-of-operation-results)
+- [Recommendations](#recommendations)
+- [About Contributing](#about-contributing)
 
 ## Disclaimer
 > [[Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)]
@@ -34,9 +34,9 @@ This datapack is released under the Apache License, Version 2.0, see [LICENSE](h
 
 ## Features
 ### Notation of Large Numbers
-These characters found in the <1,K,M,B,T,... >These letters found in the notation of
-1,10^3,10^6,10^9,10^12,... The actual execution is done with commas.  
-In actual execution, use 1~2 characters enclosed in commas.
+<1,K,M,B,T,...> can be found in this explanation.  
+Each is treated as a suffix representing 1,10^3,10^6,10^9,10^12,...  
+The actual execution should use 1~2 characters surrounded by commas.
 
 |1|K|M|B|T|Qd|Qt|Sx|Sp|O|N|D|
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -49,14 +49,14 @@ e.g. (2) 2,147,483,647 → 2 (B), 147 (M),483 (K), 647(1)
 *The terms to the right of the multiplication and division arithmetic can only be adapted to the scoreboard range as usual.
 
 ### Basic Arithmetic Operations
-- Addition
-  /function big_calc:calculate/addition
-- Subtraction
-  /function big_calc:calculate/subtraction
-- Multiplication
-  /function big_calc:calculate/multiplication
-- Division
-  /function big_calc:calculate/division
+- Addition  
+/function big_calc:calculate/addition
+- Subtraction  
+/function big_calc:calculate/subtraction
+- Multiplication  
+/function big_calc:calculate/multiplication
+- Division  
+/function big_calc:calculate/division
 
 ### Scoreboard Conversions
 *These functions are not recommended behavior and accurate results are not guaranteed at this time.
