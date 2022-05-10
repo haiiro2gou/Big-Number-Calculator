@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/haiiro2gou/Big-Number-Calculator/main/images/banner.PNG)
+![Banner](https://user-images.githubusercontent.com/99890591/167540501-341e90db-8c55-47b2-b00d-8080dd71102d.png)
 
 [![license](https://img.shields.io/github/license/haiiro2gou/Big-Number-Calculator)](https://github.com/haiiro2gou/Big-Number-Calculator/blob/main/LICENSE)
 [![Version](https://img.shields.io/github/v/release/haiiro2gou/Big-Number-Calculator.svg)](https://github.com/haiiro2gou/Big-Number-Calculator/releases)
