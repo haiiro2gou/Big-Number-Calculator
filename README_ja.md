@@ -5,7 +5,7 @@
 [![LastUpdate](https://img.shields.io/github/last-commit/haiiro2gou/Big-Number-Calculator.svg)](https://github.com/haiiro2gou/Big-Number-Calculator)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.carloscuesta.me/)
 
-#### [English](https://github.com/haiiro2gou/Big-Number-Calculator/blob/main/README.md)(Preparing) / 日本語
+#### [English](https://github.com/haiiro2gou/Big-Number-Calculator/blob/main/README.md) / 日本語
 
 何に使うかわからない桁の多い数の計算ができるデータパックです  
 多分誰も（自分も！）使わないので供養のために…  
